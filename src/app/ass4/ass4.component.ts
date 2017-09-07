@@ -10,7 +10,9 @@ import { CricketerAss4Service } from "../services/cricketer-ass4.service";
   selector: 'app-ass4',
   templateUrl: './ass4.component.html',
   styleUrls: ['../ass1/ass1.component.css'],
-  encapsulation: ViewEncapsulation.Emulated
+  encapsulation: ViewEncapsulation.Emulated,
+  providers: [CricketerDropDownAss4Service]
+
 })
 export class Ass4Component implements OnInit {
   cricketersArray: ICricketList[] = []

@@ -49,7 +49,6 @@ import { LoggerService } from "./services/logger.service";
   providers: [CricketerDropDownAss2Service,
               CricketerAss2Service,
               CricketerDropDownAss3Service,
-              CricketerDropDownAss4Service,
               CricketerAss4Service,
               LoggerService],
   bootstrap: [AppComponent]
